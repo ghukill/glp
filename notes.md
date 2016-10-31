@@ -14,3 +14,4 @@ http://embedonix.com/articles/image-processing/installing-opencv-3-1-0-on-ubuntu
 Per...
 <pre><code>Update (3 January 2016): In order to build OpenCV 3.1.0 , you need to set -D INSTALL_C_EXAMPLES=OFF  (rather than ON ) in the cmake  command. There is a bug in the OpenCV v3.1.0 CMake build script that can cause errors if you leave this switch on. Once you set this switch to off, CMake should run without a problem.</code></pre>
 
+**Note:** The mask created in the tutorial is an image!  If you look at the pixels, it appears to be 0's and 255's, where 255 would be a battleship "hit".  Interesting.  We should convert to image and "see" the countours.

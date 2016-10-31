@@ -3,7 +3,7 @@ import numpy as np
 import cv2
  
 # load the games image
-image = cv2.imread("games.jpg")
+image = cv2.imread("images/games.jpg")
  
 # find the red color game in the image
 upper = np.array([65, 65, 255])
